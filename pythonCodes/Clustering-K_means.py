@@ -10,6 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 from sklearn.datasets.samples_generator import make_blobs
+import pandas as pd
 
 # generate source data
 np.random.seed(0)
@@ -75,7 +76,6 @@ plt.scatter(X[:, 0], X[:, 3], s=area, c=labels.astype(np.float), alpha=0.5)
 plt.xlabel('Age', fontsize=18)
 plt.ylabel('Income', fontsize=16)
 
-plt.scatter()
 
 from mpl_toolkits.mplot3d import Axes3D 
 fig = plt.figure(1, figsize=(8, 6))
