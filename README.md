@@ -1,4 +1,4 @@
-# Machine_Learning with Scikit-Learn
+# Machine Learning with Scikit-Learn
 
 the projects cover the following topics
 
